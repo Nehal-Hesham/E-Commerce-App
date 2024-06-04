@@ -23,7 +23,7 @@ function About() {
               organizations, as well as internal organizational transactions
               that support these activities.
             </p>
-            <a href="#" className="read-more">
+            <a href="/" className="read-more">
               Read More
             </a>
           </div>

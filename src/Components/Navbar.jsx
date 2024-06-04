@@ -1,7 +1,6 @@
 import React from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-import Image4 from "./Images/image-4.png";
 
 function Navbar() {
   return (
@@ -12,17 +11,16 @@ function Navbar() {
         </div>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="/contact-us">Contact</a>
+            <Link to="/contact-us">Contact</Link>
           </li>
         </ul>
       </nav>
-   
     </>
   );
 }

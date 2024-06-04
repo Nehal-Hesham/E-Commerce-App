@@ -13,7 +13,7 @@ function ProductsList() {
   }, []);
   return (
     <>
-      <h2> Our Products </h2>
+      <h2 className="text-center mt-4"> Our Products </h2>
       <div className="cards-container">
         <div className="main-cards">
           {products.map((product) => {
