@@ -12,7 +12,7 @@ function Product(props) {
           <p>{product.description?.slice(0, 100) + " "}</p>
           <p> Price {product.price} $</p>
           <button className="product-btn">
-            {showButton && <a href={`/product/${product.id}`}>See More</a>}
+            {showButton && <Link to={`/product/${product.id}`}>See More</Link>}
           </button>
         </div>
       </div>
